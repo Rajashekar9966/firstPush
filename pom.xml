@@ -13,9 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>Jpa</name>
     <description>Demo project for Spring Boot</description>
-    <properties>
+  <!--  <properties>
         <java.version>11</java.version> <!-- Use Java 11 -->
-    </properties>
+    </properties> -->
     <dependencies>
         
         <dependency>
@@ -38,7 +38,7 @@
     </dependencies>
 
     <build>
-        <plugins>
+    <!--    <plugins>
             <plugin> <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Use a version that supports Java 17 -->
@@ -47,7 +47,7 @@
                 <target>17</target>
             </configuration>
             </plugin>
-        </plugins>
+        </plugins> -->
     </build>
 
 </project>
